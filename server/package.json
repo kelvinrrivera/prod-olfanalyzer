@@ -1,5 +1,5 @@
 {
-  "name": "anything-llm-server",
+  "name": "olfanalyzer-server",
   "version": "0.2.0",
   "description": "Server endpoints to process or create content for chatting",
   "main": "index.js",
@@ -71,6 +71,7 @@
     "posthog-node": "^3.1.1",
     "prisma": "5.3.1",
     "slugify": "^1.6.6",
+    "stripe": "^17.4.0",
     "swagger-autogen": "^2.23.5",
     "swagger-ui-express": "^5.0.0",
     "truncate": "^3.0.0",

@@ -1,7 +1,7 @@
 [submodule "browser-extension"]
 	path = browser-extension
-	url = git@github.com:Mintplex-Labs/anythingllm-extension.git
+	url = git@github.com:Mintplex-Labs/olfanalyzer-extension.git
 [submodule "embed"]
 	path = embed
-	url = git@github.com:Mintplex-Labs/anythingllm-embed.git
+	url = git@github.com:Mintplex-Labs/olfanalyzer-embed.git
 	branch = main

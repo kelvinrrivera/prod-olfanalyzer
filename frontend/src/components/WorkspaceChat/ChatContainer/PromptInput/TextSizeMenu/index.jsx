@@ -43,7 +43,7 @@ export default function TextSizeButton() {
 function TextSizeMenu({ showing, setShowing, buttonRef }) {
   const formRef = useRef(null);
   const [selectedSize, setSelectedSize] = useState(
-    window.localStorage.getItem("anythingllm_text_size") || "normal"
+    window.localStorage.getItem("olfanalyzer_text_size") || "normal"
   );
 
   useEffect(() => {
@@ -63,7 +63,7 @@ function TextSizeMenu({ showing, setShowing, buttonRef }) {
 
   const handleTextSizeChange = (size) => {
     setSelectedSize(size);
-    window.localStorage.setItem("anythingllm_text_size", size);
+    window.localStorage.setItem("olfanalyzer_text_size", size);
     window.dispatchEvent(new CustomEvent("textSizeChange", { detail: size }));
   };
 

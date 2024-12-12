@@ -1,12 +1,12 @@
-name: anythingllm
+name: olfanalyzer
 
 networks:
-  anything-llm:
+  olfanalyzer:
     driver: bridge
 
 services:
-  anything-llm:
-    container_name: anythingllm
+  olfanalyzer:
+    container_name: olfanalyzer
     build:
       context: ../.
       dockerfile: ./docker/Dockerfile
@@ -26,6 +26,6 @@ services:
     env_file:
       - .env
     networks:
-      - anything-llm
+      - olfanalyzer
     extra_hosts:
       - "host.docker.internal:host-gateway"

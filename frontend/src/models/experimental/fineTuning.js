@@ -3,8 +3,8 @@ import { baseHeaders, safeJsonParse } from "@/utils/request";
 
 const FineTuning = {
   cacheKeys: {
-    dismissed_cta: "anythingllm_dismissed_fine_tune_notif",
-    eligibility: "anythingllm_can_fine_tune",
+    dismissed_cta: "olfanalyzer_dismissed_fine_tune_notif",
+    eligibility: "olfanalyzer_can_fine_tune",
   },
 
   /**

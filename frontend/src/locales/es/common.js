@@ -65,25 +65,19 @@ const TRANSLATIONS = {
   },
 
   welcomeMessage: {
-    part1:
-      "Bienvenido a AnythingLLM, una herramienta de inteligencia artificial de código abierto creada por Mintplex Labs que convierte cualquier cosa en un chatbot entrenado con el que puedes consultar y conversar. AnythingLLM es un software BYOK (bring-your-own-keys), por lo que no hay suscripciones, tarifas ni cargos por este software, salvo por los servicios que deseas utilizar.",
-    part2:
-      "AnythingLLM es la forma más sencilla de integrar productos de inteligencia artificial potentes como OpenAi, GPT-4, LangChain, PineconeDB, ChromaDB y otros servicios en un paquete ordenado, sin complicaciones, para aumentar tu productividad en un 100x.",
-    part3:
-      "AnythingLLM puede ejecutarse completamente en tu máquina local con poco impacto, ¡ni siquiera notarás que está ahí! No se necesita GPU. También está disponible la instalación en la nube y en instalaciones locales.\nEl ecosistema de herramientas de inteligencia artificial se vuelve más poderoso cada día. AnythingLLM facilita su uso.",
-    githubIssue: "Crear un problema en Github",
-    user1: "¿Cómo empiezo?!",
-    part4:
-      'Es simple. Todas las colecciones se organizan en contenedores que llamamos "Workspaces". Los Workspaces son contenedores de archivos, documentos, imágenes, PDFs y otros archivos que se transformarán en algo que los LLM puedan entender y usar en una conversación.\n\nPuedes agregar y eliminar archivos en cualquier momento.',
-    createWorkspace: "Crea tu primer workspace",
-    user2:
-      "¿Es esto como un Dropbox de IA o algo así? ¿Qué hay de chatear? ¿Es un chatbot, no?",
-    part5:
-      "AnythingLLM es más que un Dropbox más inteligente.\n\nAnythingLLM ofrece dos formas de interactuar con tus datos:\n\n<i>Consulta:</i> Tus chats devolverán datos o inferencias encontradas con los documentos en tu workspace al que tiene acceso. ¡Agregar más documentos al workspace lo hace más inteligente! \n\n<i>Conversacional:</i> Tus documentos y tu historial de chat en curso contribuyen al conocimiento del LLM al mismo tiempo. Ideal para agregar información en tiempo real basada en texto o correcciones y malentendidos que el LLM pueda tener.\n\n¡Puedes alternar entre ambos modos <i>en medio de una conversación!</i>",
-    user3: "¡Vaya, esto suena increíble, déjame probarlo ya!",
-    part6: "¡Diviértete!",
-    starOnGithub: "Estrella en GitHub",
-    contact: "Contactar a Mintplex Labs",
+    part1: "Bienvenido a OLFANALYZER, tu asistente de inteligencia artificial especializado en la creación de fragancias. Diseñado para profesionales de la perfumería, OLFANALYZER combina creatividad e innovación para optimizar tus fórmulas y mejorar tus resultados. No hay cuotas ocultas: solo un enfoque dedicado a potenciar tu talento.",
+    part2: "OLFANALYZER integra inteligencia artificial de vanguardia y bases de datos avanzadas para ofrecerte un entorno intuitivo y poderoso. Transformamos datos complejos en insights claros, impulsando tu productividad como nunca antes.",
+    part3: "Simplificamos la tecnología para que puedas concentrarte en lo que mejor haces: crear fragancias extraordinarias.",  
+    githubIssue: "Reportar un problema técnico",    
+    user1: "¿Cómo empiezo?",   
+    part4: "Es fácil. Todo se organiza en Espacios de Trabajo: contenedores dinámicos donde puedes gestionar ingredientes, fórmulas, notas técnicas y más. Estos datos son transformados para que el asistente pueda entenderlos y ayudarte a desarrollar tus proyectos creativos.",    
+    createWorkspace: "Configura tu primer espacio de trabajo",    
+    user2: "¿Esto es como un Dropbox con IA? ¿Qué hay del chat?",   
+    part5: "OLFANALYZER es mucho más que un simple almacenamiento inteligente. Ofrece dos modos de interacción:\n\n<i>Consulta:</i> Realiza búsquedas rápidas y precisas en tus datos para obtener resultados al instante. Más documentos significan más conocimiento.\n\n<i>Conversación:</i> Combina tus datos con interacciones en tiempo real, corrige malentendidos y ajusta tu enfoque directamente en el chat.\n\nPuedes alternar entre ambos modos en cualquier momento para maximizar tu experiencia.",   
+    user3: "¡Esto suena increíble! ¿Dónde empiezo?",   
+    part6: "¡Adéntrate en el futuro de la perfumería y descubre lo que puedes lograr con OLFANALYZER!",    
+    starOnGithub: "¿Dudas, preguntas?",    
+    contact: "Contáctanos para soporte",
   },
 
   "new-workspace": {
@@ -115,7 +109,7 @@ const TRANSLATIONS = {
       add: "Agregar nuevo mensaje",
       save: "Guardar mensajes",
       heading: "Explícame",
-      body: "los beneficios de AnythingLLM",
+      body: "los beneficios de OLFANALYZER",
     },
     pfp: {
       title: "Imagen de perfil del asistente",
@@ -318,7 +312,7 @@ const TRANSLATIONS = {
       system: "sistema",
       user: "usuario",
       message: "mensaje",
-      assistant: "Asistente de chat AnythingLLM",
+      assistant: "Asistente de chat OLFANALYZER",
       "double-click": "Haz doble clic para editar...",
       save: "Guardar mensajes",
     },
@@ -334,7 +328,7 @@ const TRANSLATIONS = {
   api: {
     title: "Claves API",
     description:
-      "Las claves API permiten al titular acceder y gestionar programáticamente esta instancia de AnythingLLM.",
+      "Las claves API permiten al titular acceder y gestionar programáticamente esta instancia de OLFANALYZER.",
     link: "Leer la documentación de la API",
     generate: "Generar nueva clave API",
     table: {
@@ -347,7 +341,7 @@ const TRANSLATIONS = {
   llm: {
     title: "Preferencia de LLM",
     description:
-      "Estas son las credenciales y configuraciones para tu proveedor preferido de chat y incrustación de LLM. Es importante que estas claves estén actualizadas y correctas, de lo contrario AnythingLLM no funcionará correctamente.",
+      "Estas son las credenciales y configuraciones para tu proveedor preferido de chat y incrustación de LLM. Es importante que estas claves estén actualizadas y correctas, de lo contrario OLFANALYZER no funcionará correctamente.",
     provider: "Proveedor de LLM",
   },
 
@@ -357,7 +351,7 @@ const TRANSLATIONS = {
       "Estas son las credenciales y configuraciones para tu proveedor preferido de modelo de transcripción. Es importante que estas claves estén actualizadas y correctas, de lo contrario los archivos multimedia y de audio no se transcribirán.",
     provider: "Proveedor de transcripción",
     "warn-start":
-      "El uso del modelo local Whisper en máquinas con RAM o CPU limitadas puede bloquear AnythingLLM al procesar archivos multimedia.",
+      "El uso del modelo local Whisper en máquinas con RAM o CPU limitadas puede bloquear OLFANALYZER al procesar archivos multimedia.",
     "warn-recommend":
       "Recomendamos al menos 2GB de RAM y subir archivos <10Mb.",
     "warn-end":
@@ -369,11 +363,11 @@ const TRANSLATIONS = {
     "desc-start":
       "Cuando uses un LLM que no admita de forma nativa un motor de incrustación, es posible que necesites especificar credenciales adicionales para incrustar texto.",
     "desc-end":
-      "La incrustación es el proceso de convertir texto en vectores. Estas credenciales son necesarias para convertir tus archivos y prompts en un formato que AnythingLLM pueda usar para procesar.",
+      "La incrustación es el proceso de convertir texto en vectores. Estas credenciales son necesarias para convertir tus archivos y prompts en un formato que OLFANALYZER pueda usar para procesar.",
     provider: {
       title: "Proveedor de incrustación",
       description:
-        "No se requiere configuración cuando se utiliza el motor de incrustación nativo de AnythingLLM.",
+        "No se requiere configuración cuando se utiliza el motor de incrustación nativo de OLFANALYZER.",
     },
   },
 
@@ -403,7 +397,7 @@ const TRANSLATIONS = {
   vector: {
     title: "Base de datos de vectores",
     description:
-      "Estas son las credenciales y configuraciones para cómo funcionará tu instancia de AnythingLLM. Es importante que estas claves estén actualizadas y correctas.",
+      "Estas son las credenciales y configuraciones para cómo funcionará tu instancia de OLFANALYZER. Es importante que estas claves estén actualizadas y correctas.",
     provider: {
       title: "Proveedor de base de datos de vectores",
       description: "No se necesita configuración para LanceDB.",
@@ -451,7 +445,7 @@ const TRANSLATIONS = {
     password: {
       title: "Protección con contraseña",
       description:
-        "Protege tu instancia de AnythingLLM con una contraseña. Si olvidas esta contraseña, no hay método de recuperación, así que asegúrate de guardar esta contraseña.",
+        "Protege tu instancia de OLFANALYZER con una contraseña. Si olvidas esta contraseña, no hay método de recuperación, así que asegúrate de guardar esta contraseña.",
     },
     instance: {
       title: "Proteger instancia con contraseña",
@@ -476,7 +470,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Privacidad y manejo de datos",
     description:
-      "Esta es tu configuración para cómo los proveedores de terceros conectados y AnythingLLM manejan tus datos.",
+      "Esta es tu configuración para cómo los proveedores de terceros conectados y OLFANALYZER manejan tus datos.",
     llm: "Selección de LLM",
     embedding: "Preferencia de incrustación",
     vector: "Base de datos de vectores",

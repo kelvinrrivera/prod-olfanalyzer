@@ -940,3 +940,102 @@ does not extend the close button beyond the viewport. */
 .rti--container {
   @apply !bg-theme-settings-input-bg !text-white !placeholder-white !placeholder-opacity-60 !text-sm !rounded-lg !p-2.5;
 }
+
+/* custon style */
+
+img.rounded.max-h-\[24px\] {
+    max-width: 100%;
+    max-height: 80px;
+}
+.bg-theme-bg-sidebar {
+  background-color: #8739db5e;
+  /*background-image: url(https://olfanalyzer.com/wp-content/uploads/2024/11/pexels-codioful-formerly-gradienta-7130465.jpg);*/
+  --background-overlay: '';
+  margin-bottom: 10px;
+}
+.max-w-\[55\%\] {
+  max-width: 75%;
+}
+img.hidden.relative.md\:flex.rounded-2xl.w-fit.m-4.z-30.md\:top-12.absolute.max-h-\[65px\] {
+  position: relative;
+  top: 12%;
+}
+
+/* Estilos generales para las tablas */
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 30px 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-weight: normal;
+}
+
+/* Estilos para el tema claro */
+[data-theme="light"] .markdown table {
+  color: var(--theme-text-primary); /* Color de texto para el tema claro */
+}
+
+[data-theme="light"] .markdown table th {
+  background-color: var(--theme-bg-secondary); /* Fondo para encabezados en tema claro */
+  color: var(--theme-text-primary); /* Color de texto para encabezados en tema claro */
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+[data-theme="light"] .markdown table td {
+  background-color: var(--theme-bg-container); /* Fondo para celdas en tema claro */
+  color: var(--theme-text-primary); /* Color de texto para celdas en tema claro */
+}
+
+[data-theme="light"] .markdown table tr:nth-child(even) {
+  background-color: var(--theme-bg-chat-input); /* Fondo alternativo para filas pares */
+}
+
+[data-theme="light"] .markdown table tr:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Fondo al pasar el mouse en tema claro */
+}
+
+/* Estilos para el tema oscuro */
+[data-theme="dark"] .markdown table {
+  color: var(--theme-text-dark); /* Color de texto para el tema oscuro */
+}
+
+[data-theme="dark"] .markdown table th {
+  background-color: var(--theme-bg-secondary); /* Fondo para encabezados en tema oscuro */
+  color: var(--theme-text-primary); /* Color de texto para encabezados en tema oscuro */
+}
+
+[data-theme="dark"] .markdown table td {
+  background-color: var(--theme-bg-container); /* Fondo para celdas en tema oscuro */
+  color: var(--theme-text-dark); /* Color de texto para celdas en tema oscuro */
+}
+
+[data-theme="dark"] .markdown table tr:nth-child(even) {
+  background-color: var(--theme-bg-chat-input); /* Fondo alternativo para filas pares en tema oscuro */
+}
+
+[data-theme="dark"] .markdown table tr:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo al pasar el mouse en tema oscuro */
+}
+img.w-full.h-full.object-contain.z-50 {
+  transform-origin: bottom center;
+ animation: fluidSwaying 5s ease-in-out infinite;
+}
+
+@keyframes fluidSwaying {
+ 0% {
+     transform: rotate(-1.5deg) translateY(-2px);
+ }
+ 50% {
+     transform: rotate(1.5deg) translateY(-2px);
+ }
+ 100% {
+     transform: rotate(-1.5deg) translateY(-2px);
+ }
+}
+
+button.border-none.text-white\/50.light\:text-black\/50.font-medium.italic.text-sm.text-left.ml-14.pt-2.hover\:text-white\/75.hover\:light\:text-black\/75.transition-all.duration-300 {
+  display: none;
+}

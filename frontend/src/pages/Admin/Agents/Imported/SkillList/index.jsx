@@ -14,11 +14,11 @@ export default function ImportedSkillList({
         <p>
           Learn about agent skills in the{" "}
           <a
-            href="https://docs.anythingllm.com/agent/custom/developer-guide"
+            href="https://docs.olfanalyzer.com/agent/custom/developer-guide"
             target="_blank"
             className="text-theme-text-secondary light:underline hover:underline"
           >
-            AnythingLLM Agent Docs
+            OLFANALYZER Agent Docs
           </a>
           .
         </p>
