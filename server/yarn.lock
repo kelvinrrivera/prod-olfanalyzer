@@ -5661,10 +5661,10 @@ octokit@^3.1.0:
     "@octokit/request-error" "^5.0.0"
     "@octokit/types" "^12.0.0"
 
-ollama@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/ollama/-/ollama-0.5.0.tgz#cb9bc709d4d3278c9f484f751b0d9b98b06f4859"
-  integrity sha512-CRtRzsho210EGdK52GrUMohA2pU+7NbgEaBG3DcYeRmvQthDO7E2LHOkLlUUeaYUlNmEd8icbjC02ug9meSYnw==
+ollama@^0.5.11:
+  version "0.5.11"
+  resolved "https://registry.yarnpkg.com/ollama/-/ollama-0.5.11.tgz#208e4476a6f010c20d24c83896223bfa660ec236"
+  integrity sha512-lDAKcpmBU3VAOGF05NcQipHNKTdpKfAHpZ7bjCsElkUkmX7SNZImi6lwIxz/l1zQtLq0S3wuLneRuiXxX2KIew==
   dependencies:
     whatwg-fetch "^3.6.20"
 
