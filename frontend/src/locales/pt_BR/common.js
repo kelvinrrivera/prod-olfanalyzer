@@ -67,26 +67,16 @@ const TRANSLATIONS = {
   },
 
   welcomeMessage: {
-    part1:
-      "Bem-vindo ao OLFANALYZER, OLFANALYZER é uma ferramenta de IA de código aberto da Mintplex Labs que transforma qualquer coisa em um chatbot treinado que você pode consultar e conversar. OLFANALYZER é um software BYOK (bring-your-own-keys | traga suas próprias chaves), portanto, não há assinatura, taxa ou cobranças para este software fora dos serviços que você deseja usar com ele.",
-    part2:
-      "OLFANALYZER é a maneira mais fácil de reunir produtos de IA poderosos como OpenAi, GPT-4, LangChain, PineconeDB, ChromaDB e outros serviços em um pacote organizado sem complicações para aumentar sua produtividade em 100x.",
-    part3:
-      "OLFANALYZER pode ser executado totalmente localmente em sua máquina com pouca sobrecarga que você nem perceberá que está lá! Não é necessário GPU. A instalação em nuvem e localmente também está disponível.\nO ecossistema de ferramentas de IA fica mais poderoso a cada dia. OLFANALYZER facilita o uso.",
-    githubIssue: "Criar uma issue no Github",
-    user1: "Como eu começo?!",
-    part4:
-      'É simples. Todas as coleções são organizadas em grupos que chamamos de "Workspaces". Workspaces são grupos de arquivos, documentos, imagens, PDFs e outros arquivos que serão transformados em algo que os LLMs podem entender e usar em conversas.\n\nVocê pode adicionar e remover arquivos a qualquer momento.',
-    createWorkspace: "Crie seu primeiro workspace",
-    user2:
-      "Isso é como um Dropbox de IA ou algo assim? E quanto a conversar? Não é um chatbot?",
-    part5:
-      "OLFANALYZER é mais do que um Dropbox mais inteligente.\n\nOLFANALYZER oferece duas maneiras de conversar com seus dados:\n\n<i>Consulta:</i> Seus chats retornarão dados ou inferências encontradas com os documentos em seu workspace ao qual tem acesso. Adicionar mais documentos ao Workspace o torna mais inteligente!\n\n<i>Conversacional:</i> Seus documentos + seu histórico de chat em andamento contribuem para o conhecimento do LLM ao mesmo tempo. Ótimo para adicionar informações em tempo real baseadas em texto ou correções e mal-entendidos que o LLM possa ter.\n\nVocê pode alternar entre qualquer modo \n<i>no meio da conversa!</i>",
-    user3: "Uau, isso soa incrível, deixe-me experimentar já!",
-    part6: "Divirta-se!",
-    starOnGithub: "Dar estrela no GitHub",
-    contact: "Contato Mintplex Labs",
-  },
+    part1: "Bem-vindo ao OLFANALYZER, seu assistente de inteligência artificial especializado na criação de fragrâncias. Projetado para profissionais da perfumaria, o OLFANALYZER combina criatividade e inovação para otimizar suas fórmulas e melhorar seus resultados. Sem taxas ocultas: apenas um foco dedicado em potencializar o seu talento.",
+    part2: "Passos para criar fórmulas de perfume:",
+    part3: "1. **Para começar, selecione seu assistente**: Use a barra lateral para escolher o assistente que melhor se adapte às suas necessidades específicas de formulação.",
+    part4: "2. **Defina seus objetivos**: Descreva de forma clara e detalhada o tipo de fragrância que deseja criar. Inclua notas aromáticas, as emoções que deseja evocar e o contexto de uso.",
+    part5: "3. **Ajuste as opções**: Use o assistente para gerar uma fórmula inicial. Se necessário, você pode fazer ajustes ou solicitar novas recomendações com base em suas necessidades.",
+    part6: "4. **Otimize a composição**: Consulte as regulamentações IFRA, tendências de mercado e preços dos ingredientes para garantir que sua fórmula atenda aos padrões de qualidade e rentabilidade.",
+    part7: "5. **Imprima e teste**: Baixe a fórmula no formato PDF ou DOC, realize testes em laboratório e ajuste os detalhes finais para aperfeiçoar sua fragrância.",
+    part8: "Com o OLFANALYZER, o processo de criação é simples, inovador e eficiente! Explore todas as suas possibilidades e eleve suas criações a um novo patamar.",
+    contact: "Precisa de ajuda? Entre em contato conosco para suporte.",
+    },
 
   "new-workspace": {
     title: "Novo Workspace",

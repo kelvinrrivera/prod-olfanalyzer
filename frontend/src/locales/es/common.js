@@ -65,19 +65,15 @@ const TRANSLATIONS = {
   },
 
   welcomeMessage: {
-    part1: "Bienvenido a OLFANALYZER, tu asistente de inteligencia artificial especializado en la creación de fragancias. Diseñado para profesionales de la perfumería, OLFANALYZER combina creatividad e innovación para optimizar tus fórmulas y mejorar tus resultados. No hay cuotas ocultas: solo un enfoque dedicado a potenciar tu talento.",
-    part2: "OLFANALYZER integra inteligencia artificial de vanguardia y bases de datos avanzadas para ofrecerte un entorno intuitivo y poderoso. Transformamos datos complejos en insights claros, impulsando tu productividad como nunca antes.",
-    part3: "Simplificamos la tecnología para que puedas concentrarte en lo que mejor haces: crear fragancias extraordinarias.",  
-    githubIssue: "Reportar un problema técnico",    
-    user1: "¿Cómo empiezo?",   
-    part4: "Es fácil. Todo se organiza en Espacios de Trabajo: contenedores dinámicos donde puedes gestionar ingredientes, fórmulas, notas técnicas y más. Estos datos son transformados para que el asistente pueda entenderlos y ayudarte a desarrollar tus proyectos creativos.",    
-    createWorkspace: "Configura tu primer espacio de trabajo",    
-    user2: "¿Esto es como un Dropbox con IA? ¿Qué hay del chat?",   
-    part5: "OLFANALYZER es mucho más que un simple almacenamiento inteligente. Ofrece dos modos de interacción:\n\n<i>Consulta:</i> Realiza búsquedas rápidas y precisas en tus datos para obtener resultados al instante. Más documentos significan más conocimiento.\n\n<i>Conversación:</i> Combina tus datos con interacciones en tiempo real, corrige malentendidos y ajusta tu enfoque directamente en el chat.\n\nPuedes alternar entre ambos modos en cualquier momento para maximizar tu experiencia.",   
-    user3: "¡Esto suena increíble! ¿Dónde empiezo?",   
-    part6: "¡Adéntrate en el futuro de la perfumería y descubre lo que puedes lograr con OLFANALYZER!",    
-    starOnGithub: "¿Dudas, preguntas?",    
-    contact: "Contáctanos para soporte",
+    part1: "Bienvenid@ a OLFANALYZER, tu asistente de inteligencia artificial especializado en la creación de fragancias. Diseñado para profesionales de la perfumería, OLFANALYZER combina creatividad e innovación para optimizar tus fórmulas y mejorar tus resultados.",
+    part2: "Pasos para generar fórmulas de perfumes:",
+    part3: "1. **Para empezar, selecciona tu asistente**: Usa la barra lateral para elegir el asistente que mejor se adapte a tus necesidades específicas de formulación.",
+    part4: "2. **Define tus objetivos**: Describe de forma clara y detallada el tipo de fragancia que deseas crear. Incluye notas aromáticas, emociones a evocar y el contexto de uso.",
+    part5: "3. **Ajusta las opciones**: Usa el asistente para generar una fórmula inicial. Si es necesario, puedes realizar ajustes o pedir nuevas recomendaciones en base a tus necesidades.",
+    part6: "4. **Optimiza la composición**: Consulta normativas IFRA, tendencias del mercado y precios de ingredientes para asegurar que tu fórmula cumpla con estándares de calidad y rentabilidad.",
+    part7: "5. **Imprime y prueba**: Descarga la fórmula en formato PDF o DOC, realiza pruebas en laboratorio y ajusta los detalles finales para perfeccionar tu fragancia.",
+    part8: "¡Con OLFANALYZER, el proceso de creación es simple, innovador y eficiente! Explora todas sus posibilidades y lleva tus creaciones al siguiente nivel.",
+    contact: "¿Necesitas ayuda? Contáctanos para soporte.",
   },
 
   "new-workspace": {

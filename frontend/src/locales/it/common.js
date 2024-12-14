@@ -67,26 +67,16 @@ const TRANSLATIONS = {
   },
 
   welcomeMessage: {
-    part1:
-      "Benvenuti in OLFANALYZER, OLFANALYZER è uno strumento di intelligenza artificiale open source di Mintplex Labs che trasforma qualsiasi cosa in un chatbot addestrato con cui puoi effettuare query e chattare. OLFANALYZER è un software BYOK (bring-your-own-keys), quindi non ci sono abbonamenti, commissioni o costi per questo software al di fuori dei servizi che vuoi utilizzare.",
-    part2:
-      "OLFANALYZER è il modo più semplice per mettere insieme potenti prodotti di intelligenza artificiale come OpenAi, GPT-4, LangChain, PineconeDB, ChromaDB e altri servizi in un pacchetto ordinato e senza problemi per aumentare la tua produttività di 100 volte.",
-    part3:
-      "OLFANALYZER può essere eseguito completamente in locale sulla tua macchina con un overhead minimo, non ti accorgerai nemmeno che c'è! Non serve GPU. Sono disponibili anche installazioni cloud e on-premise.\nL'ecosistema degli strumenti di intelligenza artificiale diventa ogni giorno più potente. OLFANALYZER lo rende facile da usare.",
-    githubIssue: "Apri una issue su Github",
-    user1: "Come posso iniziare?!",
-    part4:
-      'È semplice. Tutte le raccolte sono organizzate in contenitori che chiamiamo "Aree di lavoro". Le aree di lavoro sono contenitori di file, documenti, immagini, PDF e altri file che verranno trasformati in qualcosa che gli LLM possono comprendere e utilizzare nella conversazione.\n\nPuoi aggiungere e rimuovere file in qualsiasi momento.',
-    createWorkspace: "Crea la tua prima area di lavoro",
-    user2:
-      "È come Dropbox AI o qualcosa del genere? E le chat? È un chatbot, non è vero?",
-    part5:
-      "OLFANALYZER è migliore di un Dropbox più smart.\n\nOLFANALYZER offre due modi di comunicare con i tuoi dati:\n\n<i>Query:</i> Le tue chat restituiranno dati o inferenze trovate con i documenti nella tua area di lavoro a cui ha accesso. Aggiungere più documenti all'area di lavoro lo rende più intelligente! \n\n<i>Conversazionale:</i> i tuoi documenti + la cronologia delle chat in corso contribuiscono entrambi alla conoscenza dell'LLM allo stesso tempo. Ottimo per aggiungere informazioni basate su testo in tempo reale o correzioni e incomprensioni che l'LLM potrebbe avere. \n\nPuoi passare da una modalità all'altra \n<i>nel mezzo della chat!</i>",
-    user3: "Wow, sembra fantastico, fammi provare!",
-    part6: "Divertiti!",
-    starOnGithub: "Metti una stella su GitHub",
-    contact: "Contatta Mintplex Labs",
-  },
+    part1: "Benvenuto su OLFANALYZER, il tuo assistente di intelligenza artificiale specializzato nella creazione di fragranze. Progettato per i professionisti della profumeria, OLFANALYZER combina creatività e innovazione per ottimizzare le tue formule e migliorare i tuoi risultati. Nessun costo nascosto: solo un impegno dedicato a potenziare il tuo talento.",
+    part2: "Passaggi per creare formule di profumi:",
+    part3: "1. **Per iniziare, seleziona il tuo assistente**: Usa la barra laterale per scegliere l'assistente che meglio si adatta alle tue esigenze specifiche di formulazione.",
+    part4: "2. **Definisci i tuoi obiettivi**: Descrivi in modo chiaro e dettagliato il tipo di fragranza che desideri creare. Includi note aromatiche, emozioni da evocare e il contesto d'uso.",
+    part5: "3. **Regola le opzioni**: Usa l'assistente per generare una formula iniziale. Se necessario, puoi apportare modifiche o richiedere nuove raccomandazioni in base alle tue esigenze.",
+    part6: "4. **Ottimizza la composizione**: Consulta le normative IFRA, le tendenze di mercato e i prezzi degli ingredienti per assicurarti che la tua formula soddisfi gli standard di qualità e redditività.",
+    part7: "5. **Stampa e testa**: Scarica la formula in formato PDF o DOC, esegui test in laboratorio e perfeziona i dettagli per affinare la tua fragranza.",
+    part8: "Con OLFANALYZER, il processo di creazione è semplice, innovativo ed efficiente! Esplora tutte le sue possibilità e porta le tue creazioni a un livello superiore.",
+    contact: "Hai bisogno di aiuto? Contattaci per supporto.",
+    },
 
   "new-workspace": {
     title: "Nuova area di lavoro",

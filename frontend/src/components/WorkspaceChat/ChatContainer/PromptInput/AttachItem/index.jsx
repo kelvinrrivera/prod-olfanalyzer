@@ -8,7 +8,6 @@ import { Tooltip } from "react-tooltip";
  */
 export default function AttachItem() {
   const { user } = useUser();
-  if (!!user && user.role === "default") return null;
 
   return (
     <>

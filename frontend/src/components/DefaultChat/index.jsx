@@ -64,26 +64,8 @@ export default function DefaultChatContainer() {
         <MessageContent>
           <UserIcon user={{ uid: "system" }} role={"assistant"} />
           <div>
-            <MessageText>{t("welcomeMessage.part3")}</MessageText>
-            <a
-              href={paths.github()}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-5 w-fit transition-all duration-300 border border-slate-200 px-4 py-2 rounded-lg text-white light:border-black/50 light:text-theme-text-primary text-sm items-center flex gap-x-2 hover:bg-slate-200 hover:text-slate-800 focus:ring-gray-800"
-            >
-              <GitMerge className="h-4 w-4" />
-              <p>{t("welcomeMessage.githubIssue")}</p>
-            </a>
+            <MessageText>{t("welcomeMessage.part3")}</MessageText>        
           </div>
-        </MessageContent>
-      </MessageContainer>
-    </React.Fragment>,
-
-    <React.Fragment key="msg4">
-      <MessageContainer>
-        <MessageContent>
-          <UserIcon user={{ uid: userFromStorage()?.username }} role={"user"} />
-          <MessageText>{t("welcomeMessage.user1")}</MessageText>
         </MessageContent>
       </MessageContainer>
     </React.Fragment>,
@@ -94,26 +76,7 @@ export default function DefaultChatContainer() {
           <UserIcon user={{ uid: "system" }} role={"assistant"} />
           <div>
             <MessageText>{t("welcomeMessage.part4")}</MessageText>
-
-            {(!user || user?.role !== "default") && (
-              <button
-                onClick={showNewWsModal}
-                className="mt-5 w-fit transition-all duration-300 border border-slate-200 px-4 py-2 rounded-lg text-white light:border-black/50 light:text-theme-text-primary text-sm items-center flex gap-x-2 hover:bg-slate-200 hover:text-slate-800 focus:ring-gray-800"
-              >
-                <Plus className="h-4 w-4" />
-                <p>{t("welcomeMessage.createWorkspace")}</p>
-              </button>
-            )}
           </div>
-        </MessageContent>
-      </MessageContainer>
-    </React.Fragment>,
-
-    <React.Fragment key="msg6">
-      <MessageContainer>
-        <MessageContent>
-          <UserIcon user={{ uid: userFromStorage()?.username }} role={"user"} />
-          <MessageText>{t("welcomeMessage.user2")}</MessageText>
         </MessageContent>
       </MessageContainer>
     </React.Fragment>,
@@ -135,15 +98,6 @@ export default function DefaultChatContainer() {
       </MessageContainer>
     </React.Fragment>,
 
-    <React.Fragment key="msg8">
-      <MessageContainer>
-        <MessageContent>
-          <UserIcon user={{ uid: userFromStorage()?.username }} role={"user"} />
-          <MessageText>{t("welcomeMessage.user3")}</MessageText>
-        </MessageContent>
-      </MessageContainer>
-    </React.Fragment>,
-
     <React.Fragment key="msg9">
       <MessageContainer>
         <MessageContent>
@@ -152,15 +106,6 @@ export default function DefaultChatContainer() {
             <MessageText>{t("welcomeMessage.part6")}</MessageText>
 
             <div className="flex flex-col md:flex-row items-start md:items-center gap-1 md:gap-4">
-              <a
-                href={paths.github()}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-5 w-fit transition-all duration-300 border border-slate-200 px-4 py-2 rounded-lg text-white light:border-black/50 light:text-theme-text-primary text-sm items-center flex gap-x-2 hover:bg-slate-200 hover:text-slate-800 focus:ring-gray-800"
-              >
-                <GithubLogo className="h-4 w-4" />
-                <p>{t("welcomeMessage.starOnGithub")}</p>
-              </a>
               <a
                 href={paths.mailToMintplex()}
                 className="mt-5 w-fit transition-all duration-300 border border-slate-200 px-4 py-2 rounded-lg text-white light:border-black/50 light:text-theme-text-primary text-sm items-center flex gap-x-2 hover:bg-slate-200 hover:text-slate-800 focus:ring-gray-800"

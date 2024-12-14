@@ -4,6 +4,12 @@ networks:
   olfanalyzer:
     driver: bridge
 
+volumes:
+  storage_data:
+  collector_hotdir:
+  collector_outputs:
+  postgres_data:
+
 services:
   olfanalyzer:
     container_name: olfanalyzer
@@ -17,9 +23,9 @@ services:
       - SYS_ADMIN
     volumes:
       - "./.env:/app/server/.env"
-      - "../server/storage:/app/server/storage"
-      - "../collector/hotdir/:/app/collector/hotdir"
-      - "../collector/outputs/:/app/collector/outputs"
+      - "storage_data:/app/server/storage"
+      - "collector_hotdir:/app/collector/hotdir"
+      - "collector_outputs:/app/collector/outputs"
     user: "${UID:-1000}:${GID:-1000}"
     ports:
       - "3001:3001"
@@ -29,3 +35,19 @@ services:
       - olfanalyzer
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    depends_on:
+      - postgres
+
+  postgres:
+      image: postgres:latest
+      container_name: postgres
+      environment:
+        POSTGRES_USER: olfz-user
+        POSTGRES_PASSWORD: 9685redJHftB7HJht7trr
+        POSTGRES_DB: olfanalyzer_db
+      volumes:
+        - postgres_data:/var/lib/postgresql/data
+      ports:
+        - "5432:5432"
+      networks:
+        - olfanalyzer
